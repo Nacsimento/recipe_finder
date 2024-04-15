@@ -1,0 +1,61 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0px;
+    
+}
+
+.bannerimg{
+    width: 30%;
+    position: relative;
+    animation: mymove 5s infinite;
+ 
+    
+}
+
+.herotext{
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    text-align: center;
+    pointer-events: none;
+}
+
+
+.social{
+    display: flex;
+    gap: 56px;
+    font-size: 38px;
+    color: rgb(187, 187, 187);
+    margin-top: 36px;
+    cursor: pointer;
+    
+}
+
+
+.socialitems{
+    transition: all ease-in-out 300ms;
+}
+
+.socialitems:hover{
+    color: rgb(100, 100, 100);
+    transform: translateY(-6px);
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .bannerimg {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

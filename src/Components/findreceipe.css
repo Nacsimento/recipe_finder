@@ -1,0 +1,40 @@
+input{
+    margin: 26px 0px;
+    padding: 6px 12px;
+    max-width: 300px;
+}
+
+img{
+    max-width: 100%;
+   
+}
+
+.n{
+    display: flex;
+    gap: 26px;
+}
+
+h1{
+    padding-bottom: 26px;
+}
+
+.h6{
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.m{
+    font-size: 24px;
+    padding: 18px 0px;
+}
+
+.loader {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border:8px solid;
+    border-color:#E4E4ED;
+    border-right-color: #766DF4;
+    animation:s2 1s infinite linear;
+  }
+  @keyframes s2 {to{transform: rotate(1turn)}}

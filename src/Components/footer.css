@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    padding: 36px 0px;
+    gap: 18px;
+}
+
+.h4{
+    font-size: 12px;
+    font-weight: lighter;
+}

@@ -1,0 +1,30 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+input{
+    width: 300px;
+    outline: none;
+    border: 1px solid rgb(187, 187, 187);
+    transition: all ease-in-out 300ms;
+}
+
+input:hover,:focus{
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.container{
+    padding: 0;
+}
